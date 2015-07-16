@@ -21,8 +21,8 @@ int main(int argc, char ** argv){
    timeinfo->tm_mon = month - 1;
    timeinfo->tm_mday = day;
 
-
-
+   printf("\n%d\n", rawtime);
+   
    mktime(timeinfo);
    
    printf("That day is a %s.\n", weekday[timeinfo->tm_wday]);
