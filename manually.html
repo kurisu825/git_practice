@@ -128,6 +128,67 @@
 		top: -10px;
 	}
 
+
+	.middleColumn {
+		width: 260px;
+		margin-right: 20px;
+		float: left;
+
+	}
+
+	.middleContainer{
+		background-color: #FFF;
+		border: 3px solid #000;
+		margin: 10px;
+		width: 260px;
+		height: 300px;
+		padding: 2px;
+
+	}
+
+	.middleTitle {
+		font: 14px/1.4 'PT Sans Narrow', sans-serif;
+		background-color: #471F37;
+		color: #FFF;
+		width: 90px;
+		height: 20px;
+		text-align: right;
+		padding-right: 6px;
+		position: relative;
+		left: 70px;
+		top: 20px;
+		z-index: 50;
+        }
+	
+	.featuredImage {
+		position: relative;
+		left: 1px;
+		top: -50px;
+	}
+
+	.middleArtTitle{
+		position: relative;
+		top: -150px;
+		padding-left: 4px;
+	}	
+
+	.middleArtDate {
+		position: relative;
+		top: -45px;
+		padding-left: 4px;
+	}	
+
+ 	.horzMidRule {
+		background-color: #471f37;
+		height: 2px;
+		width: 170px;
+		margin-left: 3px;
+		position: relative;
+		top: -45px;
+	}	
+
+	.
+
         </style>
 
 	<title>HTML Layout</title>
@@ -177,7 +238,23 @@
 				
 				</div> <!-- End of featured -->
 
-			</div> <!-- End of contentWrapper --> 
+			</div> <!-- End of leftSidebar --> 
+
+			<div class='middleColumn'>
+
+				<div class='middleContainer'>
+
+					<div class='middleTitle'><h4>ARTICLE</h4></div>
+					<img src='./images/Icon-feature.png' alt = 'Featured Image' width='260px' height='142px' class='featuredImage'	 />
+					<div class='middleArtTitle'><b>FACEBOOK MARKETING</b></div>
+					<div class='middleArtDate'><b>SEPT 8, 2011</b></div>
+					<div class='horzMidRule'></div>
+
+					<p class='middleExcerpt'>sjdiofjdsiojdsdcjdiojc<a href='#' class='clickForMore'>More</a></p>
+					
+				</div> <!-- End of middleContainer -->
+
+			</div> <!-- End of middleColumn -->
 
 		</div> <!-- End of contentWrapper -->
 
