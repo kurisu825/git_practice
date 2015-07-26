@@ -5,7 +5,7 @@ int main(int argc, char ** argv){
 
 
    cout << "fdjijcd";
-
+   cout << "fuck";
 
 
    return 0;
