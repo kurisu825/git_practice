@@ -35,6 +35,14 @@
 	      display: block;
 	  }
       </style>
+      <script>
+          function run() {
+	     var d = document.getElementById("demo");
+	     var n = document.createElement("div");
+	     n.innerHTML = "ejfioejfioe";
+             d.appendChild(n);
+	  }
+      </script>
 
    </head>
 
@@ -58,6 +66,10 @@
       </div> <!-- the end of the footer element -->
 
       <embed type='text/plain'  src='images/Hunter-x-huntercharacters.jpg'>
+
+      <div id='demo'>
+          <input type='button' value='RUN' onclick='run();'>
+      </div>
    </body>
 
 
