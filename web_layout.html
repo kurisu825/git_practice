@@ -2,10 +2,31 @@
 <html>
    <head>
       <title>web layout design for practice</title>
+      <style>
+	  html { height: 100%; }
+	  div a{
+		text-decoration:none;
+		color: #c3c6c9;
+	  }
+          div.topNav{
+	      color:#fff;	
+ 	      padding: 5px 0px 5px 20px;
+	      background-color:#4d5363;
+	  }
+	  div.topNav span{
+	  	padding: 0px 20px;
+		color: #e3e6e9;
+	  }
+	  div.topNav span.home{
+		font-size: 11px;
+		color: #c3c6c9;
+		float: right;
+	  }
+      </style>
    </head>
    <body>
       <div class='topNav'>
-          Top <!-- (1) -->
+          <span>Top</span> <a href="web_layout.html"><span>center layout</span></a> <a href="https://www.google.com"><span class='home'>www.google.com</span></a> <!-- (1) -->
       </div>
       <div class='header'>
 	  Header <!-- (2) -->
